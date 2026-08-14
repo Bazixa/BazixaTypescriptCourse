@@ -17,5 +17,5 @@ type user = {
 
 
 let inputs = null; 
-const didProvideInput = inputs || false ; // the || is checking for the some value if its null undefined it will be false but if its "" it will be string | false
-const didProvideInput1 = inputs ?? false ; // the ?? is checking for the inputs's values is null or undefined then if its find this value the variable will be right side.
+const didProvideInput = inputs || false ; // the || is checking for the some value if its find some value it will be false.
+const didProvideInput1 = inputs ?? false ; // the ?? is checking for the inputs's values is null or undefined then if its not this value the variable will be inputs value.
