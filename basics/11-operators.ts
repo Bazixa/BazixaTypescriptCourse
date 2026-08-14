@@ -344,9 +344,9 @@ console.log(profile.address?.city);
 // JavaScript operator.
 // Falls back only for null or undefined.
 
-const name = "" ?? "Guest";
+const namex = null ??"Guest";
 
-console.log(name); // ""
+console.log(namex); // ""
 
 
 /*============================================================
